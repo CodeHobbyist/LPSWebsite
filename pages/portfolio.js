@@ -17,8 +17,6 @@ class Portfolio extends Component{
 
  render(){
    return(
-
-
      <div className="portfolio-holder">
         <div className="container">
           <h2 className="title-page">Website / Website Application Portfolio</h2>

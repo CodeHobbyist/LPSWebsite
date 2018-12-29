@@ -1,92 +1,4 @@
-((window["webpackJsonp"] = window["webpackJsonp"] || []).push([["static\\development\\pages\\portfolio.js"],{
-
-/***/ "./images/bitcoinChecker.png":
-/*!***********************************!*\
-  !*** ./images/bitcoinChecker.png ***!
-  \***********************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = "/_next/static/images/bitcoinChecker-6a5c3d137b510e0697af455bf27c946f.png";
-
-/***/ }),
-
-/***/ "./images/darbyAutoCenter.png":
-/*!************************************!*\
-  !*** ./images/darbyAutoCenter.png ***!
-  \************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = "/_next/static/images/darbyAutoCenter-0bacc2d2503b4f4da390edfbd3367126.png";
-
-/***/ }),
-
-/***/ "./images/discovery.png":
-/*!******************************!*\
-  !*** ./images/discovery.png ***!
-  \******************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = "/_next/static/images/discovery-5bae72b749895a7dc7288c5e1ce9db9f.png";
-
-/***/ }),
-
-/***/ "./images/graceAutoSales.png":
-/*!***********************************!*\
-  !*** ./images/graceAutoSales.png ***!
-  \***********************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = "/_next/static/images/graceAutoSales-3f4dc9ae4d11e4f49eb1283246c13b14.png";
-
-/***/ }),
-
-/***/ "./images/libertyAutoplex.png":
-/*!************************************!*\
-  !*** ./images/libertyAutoplex.png ***!
-  \************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = "/_next/static/images/libertyAutoplex-e2063a32a7b3399f1ffdda8867b306be.png";
-
-/***/ }),
-
-/***/ "./images/lowMilesAuto.png":
-/*!*********************************!*\
-  !*** ./images/lowMilesAuto.png ***!
-  \*********************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = "/_next/static/images/lowMilesAuto-3de6ea564decb0e32b8a90e0fba8508e.png";
-
-/***/ }),
-
-/***/ "./images/nht.png":
-/*!************************!*\
-  !*** ./images/nht.png ***!
-  \************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = "/_next/static/images/nht-fa7f943fc67c3a3f2cea013349f74234.png";
-
-/***/ }),
-
-/***/ "./images/yalCars.png":
-/*!****************************!*\
-  !*** ./images/yalCars.png ***!
-  \****************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = "/_next/static/images/yalCars-b946dd7790a34ab844fc1301c21bf444.png";
-
-/***/ }),
+((window["webpackJsonp"] = window["webpackJsonp"] || []).push([["static\\development\\pages\\contact.js"],{
 
 /***/ "./node_modules/@babel/runtime-corejs2/core-js/array/is-array.js":
 /*!***********************************************************************!*\
@@ -10803,10 +10715,10 @@ module.exports = function(module) {
 
 /***/ }),
 
-/***/ "./pages/portfolio.js":
-/*!****************************!*\
-  !*** ./pages/portfolio.js ***!
-  \****************************/
+/***/ "./pages/contact.js":
+/*!**************************!*\
+  !*** ./pages/contact.js ***!
+  \**************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -10818,23 +10730,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! next/link */ "./node_modules/next/link.js");
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var _images_lowMilesAuto_png__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../images/lowMilesAuto.png */ "./images/lowMilesAuto.png");
-/* harmony import */ var _images_lowMilesAuto_png__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_images_lowMilesAuto_png__WEBPACK_IMPORTED_MODULE_3__);
-/* harmony import */ var _images_libertyAutoplex_png__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../images/libertyAutoplex.png */ "./images/libertyAutoplex.png");
-/* harmony import */ var _images_libertyAutoplex_png__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_images_libertyAutoplex_png__WEBPACK_IMPORTED_MODULE_4__);
-/* harmony import */ var _images_yalCars_png__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../images/yalCars.png */ "./images/yalCars.png");
-/* harmony import */ var _images_yalCars_png__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(_images_yalCars_png__WEBPACK_IMPORTED_MODULE_5__);
-/* harmony import */ var _images_nht_png__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../images/nht.png */ "./images/nht.png");
-/* harmony import */ var _images_nht_png__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(_images_nht_png__WEBPACK_IMPORTED_MODULE_6__);
-/* harmony import */ var _images_discovery_png__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../images/discovery.png */ "./images/discovery.png");
-/* harmony import */ var _images_discovery_png__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(_images_discovery_png__WEBPACK_IMPORTED_MODULE_7__);
-/* harmony import */ var _images_graceAutoSales_png__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../images/graceAutoSales.png */ "./images/graceAutoSales.png");
-/* harmony import */ var _images_graceAutoSales_png__WEBPACK_IMPORTED_MODULE_8___default = /*#__PURE__*/__webpack_require__.n(_images_graceAutoSales_png__WEBPACK_IMPORTED_MODULE_8__);
-/* harmony import */ var _images_darbyAutoCenter_png__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ../images/darbyAutoCenter.png */ "./images/darbyAutoCenter.png");
-/* harmony import */ var _images_darbyAutoCenter_png__WEBPACK_IMPORTED_MODULE_9___default = /*#__PURE__*/__webpack_require__.n(_images_darbyAutoCenter_png__WEBPACK_IMPORTED_MODULE_9__);
-/* harmony import */ var _images_bitcoinChecker_png__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ../images/bitcoinChecker.png */ "./images/bitcoinChecker.png");
-/* harmony import */ var _images_bitcoinChecker_png__WEBPACK_IMPORTED_MODULE_10___default = /*#__PURE__*/__webpack_require__.n(_images_bitcoinChecker_png__WEBPACK_IMPORTED_MODULE_10__);
-var _jsxFileName = "C:\\RRProjects\\LPSWebsite\\pages\\portfolio.js";
+var _jsxFileName = "C:\\RRProjects\\LPSWebsite\\pages\\contact.js";
 
 
 
@@ -10859,568 +10755,141 @@ function _setPrototypeOf(o, p) { _setPrototypeOf = Object.setPrototypeOf || func
 
 
 
-
-
-
-
-
-
-
-
-var Portfolio =
+var Contact =
 /*#__PURE__*/
 function (_Component) {
-  _inherits(Portfolio, _Component);
+  _inherits(Contact, _Component);
 
-  function Portfolio(props) {
-    _classCallCheck(this, Portfolio);
+  function Contact(props) {
+    _classCallCheck(this, Contact);
 
-    return _possibleConstructorReturn(this, _getPrototypeOf(Portfolio).call(this, props));
+    return _possibleConstructorReturn(this, _getPrototypeOf(Contact).call(this, props));
   }
 
-  _createClass(Portfolio, [{
+  _createClass(Contact, [{
     key: "render",
     value: function render() {
       return react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
-        className: "jsx-200830944" + " " + "portfolio-holder",
+        className: "jsx-2283257133" + " " + "contact-holder",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 12
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+        className: "jsx-2283257133" + " " + "container",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 13
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("h2", {
+        className: "jsx-2283257133" + " " + "title-page",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 14
+        },
+        __self: this
+      }, "Information Details On How To Reach Me"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+        className: "jsx-2283257133" + " " + "row",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 15
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+        className: "jsx-2283257133" + " " + "col-lg-6 col-md-12",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 16
+        },
+        __self: this
+      }, "THIS IS A TEST"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+        className: "jsx-2283257133" + " " + "col-lg-6 col-md-12",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 17
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", {
+        className: "jsx-2283257133",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 18
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("a", {
+        href: "mailto:louiepearl_nz@yahoo.com",
+        className: "jsx-2283257133",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 18
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("i", {
+        className: "jsx-2283257133" + " " + "fas fa-envelope",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 18
+        },
+        __self: this
+      }), "louiepearl_nz@yahoo.com")), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", {
+        className: "jsx-2283257133",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 19
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("a", {
+        href: "tel:222 222 222",
+        className: "jsx-2283257133",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 19
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("i", {
+        className: "jsx-2283257133" + " " + "fas fa-phone",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 19
+        },
+        __self: this
+      }), "222 222 222")), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", {
+        className: "jsx-2283257133",
         __source: {
           fileName: _jsxFileName,
           lineNumber: 20
         },
         __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
-        className: "jsx-200830944" + " " + "container",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 21
-        },
-        __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("h2", {
-        className: "jsx-200830944" + " " + "title-page",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 22
-        },
-        __self: this
-      }, "Website / Website Application Portfolio"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", {
-        className: "jsx-200830944",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 23
-        },
-        __self: this
-      }, "I started my IT industry career mainly on WordPress PHP Development and Front-end Development, currently i am now focusing on Front-end Development mainly using React and Nextjs."), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
-        className: "jsx-200830944" + " " + "row",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 27
-        },
-        __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
-        className: "jsx-200830944" + " " + "col-lg-6 col-md-6",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 28
-        },
-        __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
-        className: "jsx-200830944" + " " + "img-holder",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 29
-        },
-        __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("img", {
-        src: _images_lowMilesAuto_png__WEBPACK_IMPORTED_MODULE_3___default.a,
-        className: "jsx-200830944" + " " + "img-responsive",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 30
-        },
-        __self: this
-      })), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
-        className: "jsx-200830944" + " " + "div-opacity-holder",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 32
-        },
-        __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", {
-        className: "jsx-200830944",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 33
-        },
-        __self: this
-      }, "Low Miles Auto"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("h6", {
-        className: "jsx-200830944",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 34
-        },
-        __self: this
-      }, "WordPress Php JQuery JavaScript c# Html CSS less Bootstrap Media Query Elastic Search"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("a", {
-        href: "https://www.lowmiles.net/",
+      }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("a", {
+        href: "http://maps.google.com/?q=9 John F. Kennedy PL, Glen Eden, Auckland, New Zealand",
         target: "_blank",
-        className: "jsx-200830944",
+        className: "jsx-2283257133",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 35
+          lineNumber: 20
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("i", {
-        className: "jsx-200830944" + " " + "fas fa-link",
+        className: "jsx-2283257133" + " " + "fas fa-address-card",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 35
+          lineNumber: 20
         },
         __self: this
-      })))), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
-        className: "jsx-200830944" + " " + "col-lg-6 col-md-6",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 38
-        },
-        __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
-        className: "jsx-200830944" + " " + "img-holder",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 39
-        },
-        __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("img", {
-        src: _images_libertyAutoplex_png__WEBPACK_IMPORTED_MODULE_4___default.a,
-        className: "jsx-200830944" + " " + "img-responsive",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 40
-        },
-        __self: this
-      })), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
-        className: "jsx-200830944" + " " + "div-opacity-holder",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 42
-        },
-        __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", {
-        className: "jsx-200830944",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 43
-        },
-        __self: this
-      }, "Liberty Autoplex"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("h6", {
-        className: "jsx-200830944",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 44
-        },
-        __self: this
-      }, "WordPress Php JQuery JavaScript c# Html CSS less Bootstrap Media Query Elastic Search"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("a", {
-        href: "https://www.libertyautoplex.com/",
-        target: "_blank",
-        className: "jsx-200830944",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 45
-        },
-        __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("i", {
-        className: "jsx-200830944" + " " + "fas fa-link",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 45
-        },
-        __self: this
-      }))))), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
-        className: "jsx-200830944" + " " + "row",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 49
-        },
-        __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
-        className: "jsx-200830944" + " " + "col-lg-6 col-md-6",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 50
-        },
-        __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
-        className: "jsx-200830944" + " " + "img-holder",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 51
-        },
-        __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("img", {
-        src: _images_yalCars_png__WEBPACK_IMPORTED_MODULE_5___default.a,
-        className: "jsx-200830944" + " " + "img-responsive",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 52
-        },
-        __self: this
-      })), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
-        className: "jsx-200830944" + " " + "div-opacity-holder",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 54
-        },
-        __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", {
-        className: "jsx-200830944",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 55
-        },
-        __self: this
-      }, "Yalcars"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("h6", {
-        className: "jsx-200830944",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 56
-        },
-        __self: this
-      }, "WordPress Php JQuery JavaScript c# Html CSS less Bootstrap Media Query Elastic Search"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("a", {
-        href: "https://www.yalcars.com/",
-        target: "_blank",
-        className: "jsx-200830944",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 57
-        },
-        __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("i", {
-        className: "jsx-200830944" + " " + "fas fa-link",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 57
-        },
-        __self: this
-      })))), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
-        className: "jsx-200830944" + " " + "col-lg-6 col-md-6",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 60
-        },
-        __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
-        className: "jsx-200830944" + " " + "img-holder",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 61
-        },
-        __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("img", {
-        src: _images_nht_png__WEBPACK_IMPORTED_MODULE_6___default.a,
-        className: "jsx-200830944" + " " + "img-responsive",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 62
-        },
-        __self: this
-      })), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
-        className: "jsx-200830944" + " " + "div-opacity-holder",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 64
-        },
-        __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", {
-        className: "jsx-200830944",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 65
-        },
-        __self: this
-      }, "North Hollywood Toyota"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("h6", {
-        className: "jsx-200830944",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 66
-        },
-        __self: this
-      }, "WordPress Php JQuery JavaScript c# Html CSS less Bootstrap Media Query Elastic Search"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("a", {
-        href: "https://www.northhollywoodtoyota.com/",
-        target: "_blank",
-        className: "jsx-200830944",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 67
-        },
-        __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("i", {
-        className: "jsx-200830944" + " " + "fas fa-link",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 67
-        },
-        __self: this
-      }))))), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
-        className: "jsx-200830944" + " " + "row",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 72
-        },
-        __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
-        className: "jsx-200830944" + " " + "col-lg-6 col-md-6",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 73
-        },
-        __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
-        className: "jsx-200830944" + " " + "img-holder",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 74
-        },
-        __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("img", {
-        src: _images_discovery_png__WEBPACK_IMPORTED_MODULE_7___default.a,
-        className: "jsx-200830944" + " " + "img-responsive",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 75
-        },
-        __self: this
-      })), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
-        className: "jsx-200830944" + " " + "div-opacity-holder",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 77
-        },
-        __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", {
-        className: "jsx-200830944",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 78
-        },
-        __self: this
-      }, "Discovery Auto Tampa"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("h6", {
-        className: "jsx-200830944",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 79
-        },
-        __self: this
-      }, "WordPress Php JQuery JavaScript c# Html CSS less Bootstrap Media Query Elastic Search"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("a", {
-        href: "https://www.discoveryautotampa.com/",
-        target: "_blank",
-        className: "jsx-200830944",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 80
-        },
-        __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("i", {
-        className: "jsx-200830944" + " " + "fas fa-link",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 80
-        },
-        __self: this
-      })))), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
-        className: "jsx-200830944" + " " + "col-lg-6 col-md-6",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 83
-        },
-        __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
-        className: "jsx-200830944" + " " + "img-holder",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 84
-        },
-        __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("img", {
-        src: _images_graceAutoSales_png__WEBPACK_IMPORTED_MODULE_8___default.a,
-        className: "jsx-200830944" + " " + "img-responsive",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 85
-        },
-        __self: this
-      })), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
-        className: "jsx-200830944" + " " + "div-opacity-holder",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 87
-        },
-        __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", {
-        className: "jsx-200830944",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 88
-        },
-        __self: this
-      }, "Grace Auto Sales and Service"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("h6", {
-        className: "jsx-200830944",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 89
-        },
-        __self: this
-      }, "WordPress Php JQuery JavaScript c# Html CSS less Bootstrap Media Query Elastic Search"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("a", {
-        href: "https://www.graceautosalesandservice.com/",
-        target: "_blank",
-        className: "jsx-200830944",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 90
-        },
-        __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("i", {
-        className: "jsx-200830944" + " " + "fas fa-link",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 90
-        },
-        __self: this
-      }))))), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
-        className: "jsx-200830944" + " " + "row",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 95
-        },
-        __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
-        className: "jsx-200830944" + " " + "col-lg-6 col-md-6",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 96
-        },
-        __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
-        className: "jsx-200830944" + " " + "img-holder",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 97
-        },
-        __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("img", {
-        src: _images_darbyAutoCenter_png__WEBPACK_IMPORTED_MODULE_9___default.a,
-        className: "jsx-200830944" + " " + "img-responsive",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 98
-        },
-        __self: this
-      })), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
-        className: "jsx-200830944" + " " + "div-opacity-holder",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 100
-        },
-        __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", {
-        className: "jsx-200830944",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 101
-        },
-        __self: this
-      }, "Darby Auto Center"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("h6", {
-        className: "jsx-200830944",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 102
-        },
-        __self: this
-      }, "WordPress Php JQuery JavaScript c# Html CSS less Bootstrap Media Query Elastic Search"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("a", {
-        href: "https://www.darbyautocenter.com/",
-        target: "_blank",
-        className: "jsx-200830944",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 103
-        },
-        __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("i", {
-        className: "jsx-200830944" + " " + "fas fa-link",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 103
-        },
-        __self: this
-      })))), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
-        className: "jsx-200830944" + " " + "col-lg-6 col-md-6",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 106
-        },
-        __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
-        className: "jsx-200830944" + " " + "img-holder",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 107
-        },
-        __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("img", {
-        src: _images_bitcoinChecker_png__WEBPACK_IMPORTED_MODULE_10___default.a,
-        className: "jsx-200830944" + " " + "img-responsive",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 108
-        },
-        __self: this
-      })), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
-        className: "jsx-200830944" + " " + "div-opacity-holder",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 110
-        },
-        __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", {
-        className: "jsx-200830944",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 111
-        },
-        __self: this
-      }, "Bitcoin Checker"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("h6", {
-        className: "jsx-200830944",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 112
-        },
-        __self: this
-      }, "ReactJS JavaScript JQuery html CSS less Bootstrap Third Party API"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("a", {
-        href: "https://github.com/CodeHobbyist/BitcoinChecker",
-        target: "_blank",
-        className: "jsx-200830944",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 113
-        },
-        __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("i", {
-        className: "jsx-200830944" + " " + "fas fa-link",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 113
-        },
-        __self: this
-      })))))), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default.a, {
-        styleId: "200830944",
-        css: ".portfolio-holder.jsx-200830944 .container.jsx-200830944{color:#999999 !important;}.portfolio-holder.jsx-200830944 .container.jsx-200830944 .row.jsx-200830944{padding-top:15px;}.portfolio-holder.jsx-200830944 .container.jsx-200830944 img.jsx-200830944{height:auto;width:100%;}.div-opacity-holder.jsx-200830944{background-color:transparent;position:absolute;height:220px;width:93.5%;top:0;left:15px;-webkit-transition:background-color 0.8s ease;-ms-transition:background-color 0.8s ease;-webkit-transition:background-color 0.8s ease;transition:background-color 0.8s ease;}.div-opacity-holder.jsx-200830944:hover{cursor:pointer;background-color:rgba(0,0,0,0.8);-webkit-transition:background-color 0.8s ease;-ms-transition:background-color 0.8s ease;-webkit-transition:background-color 0.8s ease;transition:background-color 0.8s ease;}.div-opacity-holder.jsx-200830944 a.jsx-200830944{position:absolute;bottom:0;left:16px;opacity:0;-webkit-transition:bottom 0.8s ease-out,opacity 0.8s ease-out;-ms-transition:bottom 0.8s ease-out,opacity 0.8s ease-out;-webkit-transition:bottom 0.8s ease-out,opacity 0.8s ease-out;transition:bottom 0.8s ease-out,opacity 0.8s ease-out;}.div-opacity-holder.jsx-200830944:hover a.jsx-200830944{bottom:9px;opacity:1;-webkit-transition:bottom 0.8s ease,opacity 0.8s ease;-ms-transition:bottom 0.8s ease,opacity 0.8s ease;-webkit-transition:bottom 0.8s ease,opacity 0.8s ease;transition:bottom 0.8s ease,opacity 0.8s ease;}.div-opacity-holder.jsx-200830944 p.jsx-200830944{position:absolute;left:135px;opacity:0;top:10px;color:#e5e5e5 !important;-webkit-transition:left 0.8s ease-out,opacity 0.8s ease-out;-ms-transition:left 0.8s ease-out,opacity 0.8s ease-out;-webkit-transition:left 0.8s ease-out,opacity 0.8s ease-out;transition:left 0.8s ease-out,opacity 0.8s ease-out;}.div-opacity-holder.jsx-200830944:hover p.jsx-200830944{left:15px;opacity:1;-webkit-transition:left 0.8s ease,opacity 0.8s ease;-ms-transition:left 0.8s ease,opacity 0.8s ease;-webkit-transition:left 0.8s ease,opacity 0.8s ease;transition:left 0.8s ease,opacity 0.8s ease;}.div-opacity-holder.jsx-200830944 h6.jsx-200830944{position:absolute;left:17px;top:70px;opacity:0;padding-right:20px;color:#999999 !important;-webkit-transition:top 0.8s ease-out,opacity 0.8s ease-out;-ms-transition:top 0.8s ease-out,opacity 0.8s ease-out;-webkit-transition:top 0.8s ease-out,opacity 0.8s ease-out;transition:top 0.8s ease-out,opacity 0.8s ease-out;}.div-opacity-holder.jsx-200830944:hover h6.jsx-200830944{top:44px;opacity:1;-webkit-transition:top 0.8s ease-out,opacity 0.8s ease-out;-ms-transition:top 0.8s ease-out,opacity 0.8s ease-out;-webkit-transition:top 0.8s ease-out,opacity 0.8s ease-out;transition:top 0.8s ease-out,opacity 0.8s ease-out;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIkM6XFxSUlByb2plY3RzXFxMUFNXZWJzaXRlXFxwYWdlc1xccG9ydGZvbGlvLmpzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQXNIb0IsQUFHb0MsQUFHUixBQUdMLEFBS2lCLEFBV2QsQUFPRyxBQVNQLEFBT1MsQUFVVixBQU9VLEFBV1QsU0FDQyxDQWxCRixDQWpCQSxDQWhDQyxHQWdCeUIsRUFuQnRDLENBMEJXLEFBZ0JJLEFBaUJELENBWWtELENBbEJULENBakJFLEVBaEN6RCxFQVBBLEVBOEJZLENBaUNDLENBcERPLEFBbUNOLFFBZkYsQUFpQ0UsRUFqQkQsUUFuQ0UsQUFvQmtELEFBaUMxQyxDQTFDeUIsQUF5Qm5CLFlBbkNmLE1BcURlLE1BcERyQixBQTJDMkMsQ0FSYyxFQVRaLEdBekJ6QyxBQTREZ0QsVUEzRFosR0FtRGdCLEdBM0NwQixlQVNpQixXQXlCZCxLQWpCRSxRQVNZLEFBMEJMLENBM0RaLEVBUUosY0EyQ29CLGlCQWxDSCxTQWhCakIsYUFpQ2lCLGdCQWtCRCxXQVZ4RCxJQWpDQSxLQWdCQSxrQkFtQ0EsaUJBMURBLHVCQWdCQSxrQkFpQkEsY0FrQkEiLCJmaWxlIjoiQzpcXFJSUHJvamVjdHNcXExQU1dlYnNpdGVcXHBhZ2VzXFxwb3J0Zm9saW8uanMiLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgTGluayBmcm9tICduZXh0L2xpbmsnO1xyXG5pbXBvcnQgeyBDb21wb25lbnQgfSBmcm9tICdyZWFjdCc7XHJcbmltcG9ydCBsb3dNaWxlc0F1dG8gZnJvbSAnLi4vaW1hZ2VzL2xvd01pbGVzQXV0by5wbmcnO1xyXG5pbXBvcnQgbGliZXJ0eUF1dG9wbGV4IGZyb20gJy4uL2ltYWdlcy9saWJlcnR5QXV0b3BsZXgucG5nJztcclxuaW1wb3J0IHlhbENhcnMgZnJvbSAnLi4vaW1hZ2VzL3lhbENhcnMucG5nJztcclxuaW1wb3J0IG5odCBmcm9tICcuLi9pbWFnZXMvbmh0LnBuZyc7XHJcbmltcG9ydCBkaXNjb3ZlcnkgZnJvbSAnLi4vaW1hZ2VzL2Rpc2NvdmVyeS5wbmcnO1xyXG5pbXBvcnQgZ3JhY2VBdXRvU2FsZXMgZnJvbSAnLi4vaW1hZ2VzL2dyYWNlQXV0b1NhbGVzLnBuZyc7XHJcbmltcG9ydCBkYXJieUF1dG9DZW50ZXIgZnJvbSAnLi4vaW1hZ2VzL2RhcmJ5QXV0b0NlbnRlci5wbmcnO1xyXG5pbXBvcnQgYml0Y29pbkNoZWNrZXIgZnJvbSAnLi4vaW1hZ2VzL2JpdGNvaW5DaGVja2VyLnBuZyc7XHJcblxyXG5jbGFzcyBQb3J0Zm9saW8gZXh0ZW5kcyBDb21wb25lbnR7XHJcblxyXG4gY29uc3RydWN0b3IocHJvcHMpe1xyXG4gICBzdXBlcihwcm9wcyk7XHJcbiB9XHJcblxyXG4gcmVuZGVyKCl7XHJcbiAgIHJldHVybihcclxuICAgICA8ZGl2IGNsYXNzTmFtZT1cInBvcnRmb2xpby1ob2xkZXJcIj5cclxuICAgICAgICA8ZGl2IGNsYXNzTmFtZT1cImNvbnRhaW5lclwiPlxyXG4gICAgICAgICAgPGgyIGNsYXNzTmFtZT1cInRpdGxlLXBhZ2VcIj5XZWJzaXRlIC8gV2Vic2l0ZSBBcHBsaWNhdGlvbiBQb3J0Zm9saW88L2gyPlxyXG4gICAgICAgICAgPHA+XHJcbiAgICAgICAgICAgIEkgc3RhcnRlZCBteSBJVCBpbmR1c3RyeSBjYXJlZXIgbWFpbmx5IG9uIFdvcmRQcmVzcyBQSFAgRGV2ZWxvcG1lbnQgYW5kIEZyb250LWVuZCBEZXZlbG9wbWVudCwgY3VycmVudGx5IGkgYW0gbm93IGZvY3VzaW5nIG9uXHJcbiAgICAgICAgICAgIEZyb250LWVuZCBEZXZlbG9wbWVudCBtYWlubHkgdXNpbmcgUmVhY3QgYW5kIE5leHRqcy5cclxuICAgICAgICAgIDwvcD5cclxuICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPVwicm93XCI+XHJcbiAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPVwiY29sLWxnLTYgY29sLW1kLTZcIj5cclxuICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT1cImltZy1ob2xkZXJcIj5cclxuICAgICAgICAgICAgICAgIDxpbWcgc3JjPXtsb3dNaWxlc0F1dG99IGNsYXNzTmFtZT1cImltZy1yZXNwb25zaXZlXCIvPlxyXG4gICAgICAgICAgICAgIDwvZGl2PlxyXG4gICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPVwiZGl2LW9wYWNpdHktaG9sZGVyXCI+XHJcbiAgICAgICAgICAgICAgICA8cD5Mb3cgTWlsZXMgQXV0bzwvcD5cclxuICAgICAgICAgICAgICAgIDxoNj5Xb3JkUHJlc3MgUGhwIEpRdWVyeSBKYXZhU2NyaXB0IGMjIEh0bWwgQ1NTIGxlc3MgQm9vdHN0cmFwIE1lZGlhIFF1ZXJ5IEVsYXN0aWMgU2VhcmNoPC9oNj5cclxuICAgICAgICAgICAgICAgIDxhIGhyZWY9XCJodHRwczovL3d3dy5sb3dtaWxlcy5uZXQvXCIgdGFyZ2V0PVwiX2JsYW5rXCI+PGkgY2xhc3NOYW1lPVwiZmFzIGZhLWxpbmtcIj48L2k+PC9hPlxyXG4gICAgICAgICAgICAgIDwvZGl2PlxyXG4gICAgICAgICAgICA8L2Rpdj5cclxuICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9XCJjb2wtbGctNiBjb2wtbWQtNlwiPlxyXG4gICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPVwiaW1nLWhvbGRlclwiPlxyXG4gICAgICAgICAgICAgICAgPGltZyBzcmM9e2xpYmVydHlBdXRvcGxleH0gY2xhc3NOYW1lPVwiaW1nLXJlc3BvbnNpdmVcIi8+XHJcbiAgICAgICAgICAgICAgPC9kaXY+XHJcbiAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9XCJkaXYtb3BhY2l0eS1ob2xkZXJcIj5cclxuICAgICAgICAgICAgICAgIDxwPkxpYmVydHkgQXV0b3BsZXg8L3A+XHJcbiAgICAgICAgICAgICAgICA8aDY+V29yZFByZXNzIFBocCBKUXVlcnkgSmF2YVNjcmlwdCBjIyBIdG1sIENTUyBsZXNzIEJvb3RzdHJhcCBNZWRpYSBRdWVyeSBFbGFzdGljIFNlYXJjaDwvaDY+XHJcbiAgICAgICAgICAgICAgICA8YSBocmVmPVwiaHR0cHM6Ly93d3cubGliZXJ0eWF1dG9wbGV4LmNvbS9cIiB0YXJnZXQ9XCJfYmxhbmtcIj48aSBjbGFzc05hbWU9XCJmYXMgZmEtbGlua1wiPjwvaT48L2E+XHJcbiAgICAgICAgICAgICAgPC9kaXY+XHJcbiAgICAgICAgICAgIDwvZGl2PlxyXG4gICAgICAgICAgPC9kaXY+XHJcbiAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT1cInJvd1wiPlxyXG4gICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT1cImNvbC1sZy02IGNvbC1tZC02XCI+XHJcbiAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9XCJpbWctaG9sZGVyXCI+XHJcbiAgICAgICAgICAgICAgICA8aW1nIHNyYz17eWFsQ2Fyc30gY2xhc3NOYW1lPVwiaW1nLXJlc3BvbnNpdmVcIi8+XHJcbiAgICAgICAgICAgICAgPC9kaXY+XHJcbiAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9XCJkaXYtb3BhY2l0eS1ob2xkZXJcIj5cclxuICAgICAgICAgICAgICAgIDxwPllhbGNhcnM8L3A+XHJcbiAgICAgICAgICAgICAgICA8aDY+V29yZFByZXNzIFBocCBKUXVlcnkgSmF2YVNjcmlwdCBjIyBIdG1sIENTUyBsZXNzIEJvb3RzdHJhcCBNZWRpYSBRdWVyeSBFbGFzdGljIFNlYXJjaDwvaDY+XHJcbiAgICAgICAgICAgICAgICA8YSBocmVmPVwiaHR0cHM6Ly93d3cueWFsY2Fycy5jb20vXCIgdGFyZ2V0PVwiX2JsYW5rXCI+PGkgY2xhc3NOYW1lPVwiZmFzIGZhLWxpbmtcIj48L2k+PC9hPlxyXG4gICAgICAgICAgICAgIDwvZGl2PlxyXG4gICAgICAgICAgICA8L2Rpdj5cclxuICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9XCJjb2wtbGctNiBjb2wtbWQtNlwiPlxyXG4gICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPVwiaW1nLWhvbGRlclwiPlxyXG4gICAgICAgICAgICAgICAgPGltZyBzcmM9e25odH0gY2xhc3NOYW1lPVwiaW1nLXJlc3BvbnNpdmVcIi8+XHJcbiAgICAgICAgICAgICAgPC9kaXY+XHJcbiAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9XCJkaXYtb3BhY2l0eS1ob2xkZXJcIj5cclxuICAgICAgICAgICAgICAgIDxwPk5vcnRoIEhvbGx5d29vZCBUb3lvdGE8L3A+XHJcbiAgICAgICAgICAgICAgICA8aDY+V29yZFByZXNzIFBocCBKUXVlcnkgSmF2YVNjcmlwdCBjIyBIdG1sIENTUyBsZXNzIEJvb3RzdHJhcCBNZWRpYSBRdWVyeSBFbGFzdGljIFNlYXJjaDwvaDY+XHJcbiAgICAgICAgICAgICAgICA8YSBocmVmPVwiaHR0cHM6Ly93d3cubm9ydGhob2xseXdvb2R0b3lvdGEuY29tL1wiIHRhcmdldD1cIl9ibGFua1wiPjxpIGNsYXNzTmFtZT1cImZhcyBmYS1saW5rXCI+PC9pPjwvYT5cclxuICAgICAgICAgICAgICA8L2Rpdj5cclxuICAgICAgICAgICAgPC9kaXY+XHJcbiAgICAgICAgICA8L2Rpdj5cclxuXHJcbiAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT1cInJvd1wiPlxyXG4gICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT1cImNvbC1sZy02IGNvbC1tZC02XCI+XHJcbiAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9XCJpbWctaG9sZGVyXCI+XHJcbiAgICAgICAgICAgICAgICA8aW1nIHNyYz17ZGlzY292ZXJ5fSBjbGFzc05hbWU9XCJpbWctcmVzcG9uc2l2ZVwiLz5cclxuICAgICAgICAgICAgICA8L2Rpdj5cclxuICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT1cImRpdi1vcGFjaXR5LWhvbGRlclwiPlxyXG4gICAgICAgICAgICAgICAgPHA+RGlzY292ZXJ5IEF1dG8gVGFtcGE8L3A+XHJcbiAgICAgICAgICAgICAgICA8aDY+V29yZFByZXNzIFBocCBKUXVlcnkgSmF2YVNjcmlwdCBjIyBIdG1sIENTUyBsZXNzIEJvb3RzdHJhcCBNZWRpYSBRdWVyeSBFbGFzdGljIFNlYXJjaDwvaDY+XHJcbiAgICAgICAgICAgICAgICA8YSBocmVmPVwiaHR0cHM6Ly93d3cuZGlzY292ZXJ5YXV0b3RhbXBhLmNvbS9cIiB0YXJnZXQ9XCJfYmxhbmtcIj48aSBjbGFzc05hbWU9XCJmYXMgZmEtbGlua1wiPjwvaT48L2E+XHJcbiAgICAgICAgICAgICAgPC9kaXY+XHJcbiAgICAgICAgICAgIDwvZGl2PlxyXG4gICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT1cImNvbC1sZy02IGNvbC1tZC02XCI+XHJcbiAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9XCJpbWctaG9sZGVyXCI+XHJcbiAgICAgICAgICAgICAgICA8aW1nIHNyYz17Z3JhY2VBdXRvU2FsZXN9IGNsYXNzTmFtZT1cImltZy1yZXNwb25zaXZlXCIvPlxyXG4gICAgICAgICAgICAgIDwvZGl2PlxyXG4gICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPVwiZGl2LW9wYWNpdHktaG9sZGVyXCI+XHJcbiAgICAgICAgICAgICAgICA8cD5HcmFjZSBBdXRvIFNhbGVzIGFuZCBTZXJ2aWNlPC9wPlxyXG4gICAgICAgICAgICAgICAgPGg2PldvcmRQcmVzcyBQaHAgSlF1ZXJ5IEphdmFTY3JpcHQgYyMgSHRtbCBDU1MgbGVzcyBCb290c3RyYXAgTWVkaWEgUXVlcnkgRWxhc3RpYyBTZWFyY2g8L2g2PlxyXG4gICAgICAgICAgICAgICAgPGEgaHJlZj1cImh0dHBzOi8vd3d3LmdyYWNlYXV0b3NhbGVzYW5kc2VydmljZS5jb20vXCIgdGFyZ2V0PVwiX2JsYW5rXCI+PGkgY2xhc3NOYW1lPVwiZmFzIGZhLWxpbmtcIj48L2k+PC9hPlxyXG4gICAgICAgICAgICAgIDwvZGl2PlxyXG4gICAgICAgICAgICA8L2Rpdj5cclxuICAgICAgICAgIDwvZGl2PlxyXG5cclxuICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPVwicm93XCI+XHJcbiAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPVwiY29sLWxnLTYgY29sLW1kLTZcIj5cclxuICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT1cImltZy1ob2xkZXJcIj5cclxuICAgICAgICAgICAgICAgIDxpbWcgc3JjPXtkYXJieUF1dG9DZW50ZXJ9IGNsYXNzTmFtZT1cImltZy1yZXNwb25zaXZlXCIvPlxyXG4gICAgICAgICAgICAgIDwvZGl2PlxyXG4gICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPVwiZGl2LW9wYWNpdHktaG9sZGVyXCI+XHJcbiAgICAgICAgICAgICAgICA8cD5EYXJieSBBdXRvIENlbnRlcjwvcD5cclxuICAgICAgICAgICAgICAgIDxoNj5Xb3JkUHJlc3MgUGhwIEpRdWVyeSBKYXZhU2NyaXB0IGMjIEh0bWwgQ1NTIGxlc3MgQm9vdHN0cmFwIE1lZGlhIFF1ZXJ5IEVsYXN0aWMgU2VhcmNoPC9oNj5cclxuICAgICAgICAgICAgICAgIDxhIGhyZWY9XCJodHRwczovL3d3dy5kYXJieWF1dG9jZW50ZXIuY29tL1wiIHRhcmdldD1cIl9ibGFua1wiPjxpIGNsYXNzTmFtZT1cImZhcyBmYS1saW5rXCI+PC9pPjwvYT5cclxuICAgICAgICAgICAgICA8L2Rpdj5cclxuICAgICAgICAgICAgPC9kaXY+XHJcbiAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPVwiY29sLWxnLTYgY29sLW1kLTZcIj5cclxuICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT1cImltZy1ob2xkZXJcIj5cclxuICAgICAgICAgICAgICAgIDxpbWcgc3JjPXtiaXRjb2luQ2hlY2tlcn0gY2xhc3NOYW1lPVwiaW1nLXJlc3BvbnNpdmVcIi8+XHJcbiAgICAgICAgICAgICAgPC9kaXY+XHJcbiAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9XCJkaXYtb3BhY2l0eS1ob2xkZXJcIj5cclxuICAgICAgICAgICAgICAgIDxwPkJpdGNvaW4gQ2hlY2tlcjwvcD5cclxuICAgICAgICAgICAgICAgIDxoNj5SZWFjdEpTIEphdmFTY3JpcHQgSlF1ZXJ5IGh0bWwgQ1NTIGxlc3MgQm9vdHN0cmFwIFRoaXJkIFBhcnR5IEFQSTwvaDY+XHJcbiAgICAgICAgICAgICAgICA8YSBocmVmPVwiaHR0cHM6Ly9naXRodWIuY29tL0NvZGVIb2JieWlzdC9CaXRjb2luQ2hlY2tlclwiIHRhcmdldD1cIl9ibGFua1wiPjxpIGNsYXNzTmFtZT1cImZhcyBmYS1saW5rXCI+PC9pPjwvYT5cclxuICAgICAgICAgICAgICA8L2Rpdj5cclxuICAgICAgICAgICAgPC9kaXY+XHJcbiAgICAgICAgICA8L2Rpdj5cclxuXHJcbiAgICAgIDwvZGl2PlxyXG4gICAgICAgIDxzdHlsZSBqc3g+e2BcclxuICAgICAgICAucG9ydGZvbGlvLWhvbGRlciAuY29udGFpbmVyIHtcclxuICAgICAgICAgIGNvbG9yOiAjOTk5OTk5ICFpbXBvcnRhbnQ7XHJcbiAgICAgICAgfVxyXG4gICAgICAgIC5wb3J0Zm9saW8taG9sZGVyIC5jb250YWluZXIgLnJvdyB7XHJcbiAgICAgICAgICBwYWRkaW5nLXRvcDogMTVweDtcclxuICAgICAgICB9XHJcbiAgICAgICAgLnBvcnRmb2xpby1ob2xkZXIgLmNvbnRhaW5lciBpbWd7XHJcbiAgICAgICAgICBoZWlnaHQ6IGF1dG87XHJcbiAgICAgICAgICB3aWR0aDogMTAwJTtcclxuICAgICAgICB9XHJcbiAgICAgICAgLmRpdi1vcGFjaXR5LWhvbGRlclxyXG4gICAgICAgIHtcclxuICAgICAgICAgIGJhY2tncm91bmQtY29sb3I6IHRyYW5zcGFyZW50O1xyXG4gICAgICAgICAgcG9zaXRpb246IGFic29sdXRlO1xyXG4gICAgICAgICAgaGVpZ2h0OiAyMjBweDtcclxuICAgICAgICAgIHdpZHRoOiA5My41JTtcclxuICAgICAgICAgIHRvcDogMDtcclxuICAgICAgICAgIGxlZnQ6IDE1cHg7XHJcbiAgICAgICAgICAtd2Via2l0LXRyYW5zaXRpb246IGJhY2tncm91bmQtY29sb3IgMC44cyBlYXNlO1xyXG4gICAgICAgICAgLW1zLXRyYW5zaXRpb246IGJhY2tncm91bmQtY29sb3IgMC44cyBlYXNlO1xyXG4gICAgICAgICAgdHJhbnNpdGlvbjogYmFja2dyb3VuZC1jb2xvciAwLjhzIGVhc2U7XHJcbiAgICAgICAgfVxyXG4gICAgICAgIC5kaXYtb3BhY2l0eS1ob2xkZXI6aG92ZXIge1xyXG4gICAgICAgICAgY3Vyc29yOiBwb2ludGVyO1xyXG4gICAgICAgICAgYmFja2dyb3VuZC1jb2xvcjogcmdiYSgwLCAwLCAwLCAwLjgpO1xyXG4gICAgICAgICAgLXdlYmtpdC10cmFuc2l0aW9uOiBiYWNrZ3JvdW5kLWNvbG9yIDAuOHMgZWFzZTtcclxuICAgICAgICAgIC1tcy10cmFuc2l0aW9uOiBiYWNrZ3JvdW5kLWNvbG9yIDAuOHMgZWFzZTtcclxuICAgICAgICAgIHRyYW5zaXRpb246IGJhY2tncm91bmQtY29sb3IgMC44cyBlYXNlO1xyXG4gICAgICAgIH1cclxuICAgICAgICAuZGl2LW9wYWNpdHktaG9sZGVyIGEge1xyXG4gICAgICAgICAgcG9zaXRpb246IGFic29sdXRlO1xyXG4gICAgICAgICAgYm90dG9tOiAwO1xyXG4gICAgICAgICAgbGVmdDogMTZweDtcclxuICAgICAgICAgIG9wYWNpdHk6IDA7XHJcbiAgICAgICAgICAtd2Via2l0LXRyYW5zaXRpb246IGJvdHRvbSAwLjhzIGVhc2Utb3V0LCBvcGFjaXR5IDAuOHMgZWFzZS1vdXQ7XHJcbiAgICAgICAgICAtbXMtdHJhbnNpdGlvbjogYm90dG9tIDAuOHMgZWFzZS1vdXQsIG9wYWNpdHkgMC44cyBlYXNlLW91dDtcclxuICAgICAgICAgIHRyYW5zaXRpb246IGJvdHRvbSAwLjhzIGVhc2Utb3V0LCBvcGFjaXR5IDAuOHMgZWFzZS1vdXQ7XHJcbiAgICAgICAgfVxyXG4gICAgICAgIC5kaXYtb3BhY2l0eS1ob2xkZXI6aG92ZXIgYSB7XHJcbiAgICAgICAgICBib3R0b206IDlweDtcclxuICAgICAgICAgIG9wYWNpdHk6IDE7XHJcbiAgICAgICAgICAtd2Via2l0LXRyYW5zaXRpb246IGJvdHRvbSAwLjhzIGVhc2UsIG9wYWNpdHkgMC44cyBlYXNlO1xyXG4gICAgICAgICAgLW1zLXRyYW5zaXRpb246IGJvdHRvbSAwLjhzIGVhc2UsIG9wYWNpdHkgMC44cyBlYXNlO1xyXG4gICAgICAgICAgdHJhbnNpdGlvbjogYm90dG9tIDAuOHMgZWFzZSwgb3BhY2l0eSAwLjhzIGVhc2U7XHJcbiAgICAgICAgfVxyXG4gICAgICAgIC5kaXYtb3BhY2l0eS1ob2xkZXIgcCB7XHJcbiAgICAgICAgICAgIHBvc2l0aW9uOiBhYnNvbHV0ZTtcclxuICAgICAgICAgICAgbGVmdDogMTM1cHg7XHJcbiAgICAgICAgICAgIG9wYWNpdHk6IDA7XHJcbiAgICAgICAgICAgIHRvcDogMTBweDtcclxuICAgICAgICAgICAgY29sb3I6ICNlNWU1ZTUgIWltcG9ydGFudDtcclxuICAgICAgICAgICAgLXdlYmtpdC10cmFuc2l0aW9uOiBsZWZ0IDAuOHMgZWFzZS1vdXQsIG9wYWNpdHkgMC44cyBlYXNlLW91dDtcclxuICAgICAgICAgICAgLW1zLXRyYW5zaXRpb246IGxlZnQgMC44cyBlYXNlLW91dCwgb3BhY2l0eSAwLjhzIGVhc2Utb3V0O1xyXG4gICAgICAgICAgICB0cmFuc2l0aW9uOiBsZWZ0IDAuOHMgZWFzZS1vdXQsIG9wYWNpdHkgMC44cyBlYXNlLW91dDtcclxuICAgICAgICB9XHJcbiAgICAgICAgLmRpdi1vcGFjaXR5LWhvbGRlcjpob3ZlciBwIHtcclxuICAgICAgICAgIGxlZnQ6IDE1cHg7XHJcbiAgICAgICAgICBvcGFjaXR5OiAxO1xyXG4gICAgICAgICAgLXdlYmtpdC10cmFuc2l0aW9uOiBsZWZ0IDAuOHMgZWFzZSwgb3BhY2l0eSAwLjhzIGVhc2U7XHJcbiAgICAgICAgICAtbXMtdHJhbnNpdGlvbjogbGVmdCAwLjhzIGVhc2UsIG9wYWNpdHkgMC44cyBlYXNlO1xyXG4gICAgICAgICAgdHJhbnNpdGlvbjogbGVmdCAwLjhzIGVhc2UsIG9wYWNpdHkgMC44cyBlYXNlO1xyXG4gICAgICAgIH1cclxuICAgICAgICAuZGl2LW9wYWNpdHktaG9sZGVyIGg2IHtcclxuICAgICAgICAgICAgcG9zaXRpb246IGFic29sdXRlO1xyXG4gICAgICAgICAgICBsZWZ0OiAxN3B4O1xyXG4gICAgICAgICAgICB0b3A6IDcwcHg7XHJcbiAgICAgICAgICAgIG9wYWNpdHk6IDA7XHJcbiAgICAgICAgICAgIHBhZGRpbmctcmlnaHQ6IDIwcHg7XHJcbiAgICAgICAgICAgIGNvbG9yOiAjOTk5OTk5ICFpbXBvcnRhbnQ7XHJcbiAgICAgICAgICAgIC13ZWJraXQtdHJhbnNpdGlvbjogdG9wIDAuOHMgZWFzZS1vdXQsIG9wYWNpdHkgMC44cyBlYXNlLW91dDtcclxuICAgICAgICAgICAgLW1zLXRyYW5zaXRpb246IHRvcCAwLjhzIGVhc2Utb3V0LCBvcGFjaXR5IDAuOHMgZWFzZS1vdXQ7XHJcbiAgICAgICAgICAgIHRyYW5zaXRpb246IHRvcCAwLjhzIGVhc2Utb3V0LCBvcGFjaXR5IDAuOHMgZWFzZS1vdXQ7XHJcbiAgICAgICAgfVxyXG4gICAgICAgIC5kaXYtb3BhY2l0eS1ob2xkZXI6aG92ZXIgaDYge1xyXG4gICAgICAgICAgICB0b3A6IDQ0cHg7XHJcbiAgICAgICAgICAgIG9wYWNpdHk6IDE7XHJcbiAgICAgICAgICAgIC13ZWJraXQtdHJhbnNpdGlvbjogdG9wIDAuOHMgZWFzZS1vdXQsIG9wYWNpdHkgMC44cyBlYXNlLW91dDtcclxuICAgICAgICAgICAgLW1zLXRyYW5zaXRpb246IHRvcCAwLjhzIGVhc2Utb3V0LCBvcGFjaXR5IDAuOHMgZWFzZS1vdXQ7XHJcbiAgICAgICAgICAgIHRyYW5zaXRpb246IHRvcCAwLjhzIGVhc2Utb3V0LCBvcGFjaXR5IDAuOHMgZWFzZS1vdXQ7XHJcbiAgICAgICAgfVxyXG5cclxuXHJcbiAgICAgICAgYH08L3N0eWxlPlxyXG4gICAgIDwvZGl2PlxyXG5cclxuXHJcbiAgICk7XHJcbiB9XHJcblxyXG59XHJcblxyXG5cclxuXHJcbmV4cG9ydCBkZWZhdWx0IFBvcnRmb2xpbztcclxuIl19 */\n/*@ sourceURL=C:\\RRProjects\\LPSWebsite\\pages\\portfolio.js */",
+      }), "9c John F. Kennedy PL, Glen Eden, Auckland, New Zealand"))))), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default.a, {
+        styleId: "2283257133",
+        css: ".fas.jsx-2283257133{margin-right:10px;}.row.jsx-2283257133{padding-top:15px;}.row.jsx-2283257133 div.jsx-2283257133:nth-child(2) p.jsx-2283257133:nth-child(2),.row.jsx-2283257133 div.jsx-2283257133:nth-child(2) p.jsx-2283257133:nth-child(3){padding-top:15px;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIkM6XFxSUlByb2plY3RzXFxMUFNXZWJzaXRlXFxwYWdlc1xcY29udGFjdC5qcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUF3QlMsQUFHK0IsQUFHRCxBQUtBLGlCQUpuQixBQUtBLENBUkEiLCJmaWxlIjoiQzpcXFJSUHJvamVjdHNcXExQU1dlYnNpdGVcXHBhZ2VzXFxjb250YWN0LmpzIiwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IExpbmsgZnJvbSAnbmV4dC9saW5rJztcclxuaW1wb3J0IHsgQ29tcG9uZW50IH0gZnJvbSAncmVhY3QnO1xyXG5cclxuY2xhc3MgQ29udGFjdCBleHRlbmRzIENvbXBvbmVudHtcclxuXHJcbiBjb25zdHJ1Y3Rvcihwcm9wcyl7XHJcbiAgIHN1cGVyKHByb3BzKTtcclxuIH1cclxuXHJcbiByZW5kZXIoKXtcclxuICAgcmV0dXJuKFxyXG4gICAgICAgIDxkaXYgY2xhc3NOYW1lPVwiY29udGFjdC1ob2xkZXJcIj5cclxuICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPVwiY29udGFpbmVyXCI+XHJcbiAgICAgICAgICAgIDxoMiBjbGFzc05hbWU9XCJ0aXRsZS1wYWdlXCI+SW5mb3JtYXRpb24gRGV0YWlscyBPbiBIb3cgVG8gUmVhY2ggTWU8L2gyPlxyXG4gICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT1cInJvd1wiPlxyXG4gICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPVwiY29sLWxnLTYgY29sLW1kLTEyXCI+VEhJUyBJUyBBIFRFU1Q8L2Rpdj5cclxuICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT1cImNvbC1sZy02IGNvbC1tZC0xMlwiPlxyXG4gICAgICAgICAgICAgICAgPHA+PGEgaHJlZj1cIm1haWx0bzpsb3VpZXBlYXJsX256QHlhaG9vLmNvbVwiPjxpIGNsYXNzTmFtZT1cImZhcyBmYS1lbnZlbG9wZVwiPjwvaT5sb3VpZXBlYXJsX256QHlhaG9vLmNvbTwvYT48L3A+XHJcbiAgICAgICAgICAgICAgICA8cD48YSBocmVmPVwidGVsOjIyMiAyMjIgMjIyXCI+PGkgY2xhc3NOYW1lPVwiZmFzIGZhLXBob25lXCI+PC9pPjIyMiAyMjIgMjIyPC9hPjwvcD5cclxuICAgICAgICAgICAgICAgIDxwPjxhIGhyZWY9XCJodHRwOi8vbWFwcy5nb29nbGUuY29tLz9xPTkgSm9obiBGLiBLZW5uZWR5IFBMLCBHbGVuIEVkZW4sIEF1Y2tsYW5kLCBOZXcgWmVhbGFuZFwiIHRhcmdldD1cIl9ibGFua1wiPjxpIGNsYXNzTmFtZT1cImZhcyBmYS1hZGRyZXNzLWNhcmRcIj48L2k+OWMgSm9obiBGLiBLZW5uZWR5IFBMLCBHbGVuIEVkZW4sIEF1Y2tsYW5kLCBOZXcgWmVhbGFuZDwvYT48L3A+XHJcbiAgICAgICAgICAgICAgPC9kaXY+XHJcbiAgICAgICAgICAgIDwvZGl2PlxyXG4gICAgICAgICAgPC9kaXY+XHJcbiAgICAgICAgPHN0eWxlIGpzeD5cclxuICAgICAgICB7YFxyXG4gICAgICAgICAgLmZhcyB7XHJcbiAgICAgICAgICAgIG1hcmdpbi1yaWdodDogMTBweDtcclxuICAgICAgICAgIH1cclxuICAgICAgICAgIC5yb3cge1xyXG4gICAgICAgICAgICBwYWRkaW5nLXRvcDogMTVweDtcclxuICAgICAgICAgIH1cclxuICAgICAgICAgIC5yb3cgZGl2Om50aC1jaGlsZCgyKSBwOm50aC1jaGlsZCgyKSxcclxuICAgICAgICAgIC5yb3cgZGl2Om50aC1jaGlsZCgyKSBwOm50aC1jaGlsZCgzKVxyXG4gICAgICAgICAge1xyXG4gICAgICAgICAgICBwYWRkaW5nLXRvcDogMTVweDtcclxuICAgICAgICAgIH1cclxuICAgICAgICBgfTwvc3R5bGU+XHJcbiAgICAgICAgPC9kaXY+XHJcbiAgICAgKTtcclxuIH1cclxuXHJcbn1cclxuXHJcblxyXG5cclxuZXhwb3J0IGRlZmF1bHQgQ29udGFjdDtcclxuIl19 */\n/*@ sourceURL=C:\\RRProjects\\LPSWebsite\\pages\\contact.js */",
         __self: this
       }));
     }
   }]);
 
-  return Portfolio;
+  return Contact;
 }(react__WEBPACK_IMPORTED_MODULE_1__["Component"]);
 
-/* harmony default export */ __webpack_exports__["default"] = (Portfolio);
+/* harmony default export */ __webpack_exports__["default"] = (Contact);
     (function (Component, route) {
       if(!Component) return
       if (false) {}
@@ -11437,21 +10906,21 @@ function (_Component) {
           next.router.update(r, Component)
         }
       }
-    })(typeof __webpack_exports__ !== 'undefined' ? __webpack_exports__.default : (module.exports.default || module.exports), "/portfolio")
+    })(typeof __webpack_exports__ !== 'undefined' ? __webpack_exports__.default : (module.exports.default || module.exports), "/contact")
   
 /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./../node_modules/webpack/buildin/harmony-module.js */ "./node_modules/webpack/buildin/harmony-module.js")(module)))
 
 /***/ }),
 
-/***/ 5:
-/*!**********************************!*\
-  !*** multi ./pages/portfolio.js ***!
-  \**********************************/
+/***/ 6:
+/*!********************************!*\
+  !*** multi ./pages/contact.js ***!
+  \********************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__NEXT_REGISTER_PAGE('/portfolio', function() {
-module.exports = __webpack_require__(/*! ./pages/portfolio.js */"./pages/portfolio.js");
+__NEXT_REGISTER_PAGE('/contact', function() {
+module.exports = __webpack_require__(/*! ./pages/contact.js */"./pages/contact.js");
 
 return { page: module.exports.default }});
 
@@ -11468,5 +10937,5 @@ module.exports = dll_e8427f5b250f425a56e7;
 
 /***/ })
 
-},[[5,"static/runtime/webpack.js"]]]));;
-//# sourceMappingURL=portfolio.js.map
+},[[6,"static/runtime/webpack.js"]]]));;
+//# sourceMappingURL=contact.js.map

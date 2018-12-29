@@ -21,25 +21,18 @@ class Navbar extends Component {
   }
 
   onPageTransition(value){
-
     const currentUrl = document.location.href;
     const nextUrl = document.location.origin + value
-    console.log(value);
-    console.log(currentUrl);
-    console.log(nextUrl);
     this.setState({
         Condition: !this.state.Condition
       });
     this.props.onPageTransitionCB(value);
-
     if(currentUrl !== nextUrl){
       setTimeout(() => Router.push(value), 500)
     }
-
   }
 
   render(){
-
     return(
       <nav className={this.state.Condition ? "navbar-down navbar justify-content-center" : "navbar justify-content-center"}>
          <ul className="navbar-nav">

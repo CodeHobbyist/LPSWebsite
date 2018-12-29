@@ -10,8 +10,7 @@ import darbyAutoCenter from '../images/darbyAutoCenter.png';
 import bitcoinChecker from '../images/bitcoinChecker.png';
 
 class Portfolio extends Component{
-
- constructor(props){
+  constructor(props){
    super(props);
  }
 
@@ -117,87 +116,96 @@ class Portfolio extends Component{
 
       </div>
         <style jsx>{`
-        .portfolio-holder .container {
-          color: #999999 !important;
-        }
-        .portfolio-holder .container .row {
-          padding-top: 15px;
-        }
-        .portfolio-holder .container img{
-          height: auto;
-          width: 100%;
-        }
-        .div-opacity-holder
-        {
-          background-color: transparent;
-          position: absolute;
-          height: 220px;
-          width: 93.5%;
-          top: 0;
-          left: 15px;
-          -webkit-transition: background-color 0.8s ease;
-          -ms-transition: background-color 0.8s ease;
-          transition: background-color 0.8s ease;
-        }
-        .div-opacity-holder:hover {
-          cursor: pointer;
-          background-color: rgba(0, 0, 0, 0.8);
-          -webkit-transition: background-color 0.8s ease;
-          -ms-transition: background-color 0.8s ease;
-          transition: background-color 0.8s ease;
-        }
-        .div-opacity-holder a {
-          position: absolute;
-          bottom: 0;
-          left: 16px;
-          opacity: 0;
-          -webkit-transition: bottom 0.8s ease-out, opacity 0.8s ease-out;
-          -ms-transition: bottom 0.8s ease-out, opacity 0.8s ease-out;
-          transition: bottom 0.8s ease-out, opacity 0.8s ease-out;
-        }
-        .div-opacity-holder:hover a {
-          bottom: 9px;
-          opacity: 1;
-          -webkit-transition: bottom 0.8s ease, opacity 0.8s ease;
-          -ms-transition: bottom 0.8s ease, opacity 0.8s ease;
-          transition: bottom 0.8s ease, opacity 0.8s ease;
-        }
-        .div-opacity-holder p {
-            position: absolute;
-            left: 135px;
-            opacity: 0;
-            top: 10px;
-            color: #e5e5e5 !important;
-            -webkit-transition: left 0.8s ease-out, opacity 0.8s ease-out;
-            -ms-transition: left 0.8s ease-out, opacity 0.8s ease-out;
-            transition: left 0.8s ease-out, opacity 0.8s ease-out;
-        }
-        .div-opacity-holder:hover p {
-          left: 15px;
-          opacity: 1;
-          -webkit-transition: left 0.8s ease, opacity 0.8s ease;
-          -ms-transition: left 0.8s ease, opacity 0.8s ease;
-          transition: left 0.8s ease, opacity 0.8s ease;
-        }
-        .div-opacity-holder h6 {
-            position: absolute;
-            left: 17px;
-            top: 70px;
-            opacity: 0;
-            padding-right: 20px;
+          .portfolio-holder .container {
             color: #999999 !important;
-            -webkit-transition: top 0.8s ease-out, opacity 0.8s ease-out;
-            -ms-transition: top 0.8s ease-out, opacity 0.8s ease-out;
-            transition: top 0.8s ease-out, opacity 0.8s ease-out;
-        }
-        .div-opacity-holder:hover h6 {
-            top: 44px;
+          }
+          .portfolio-holder .container .row {
+            padding-top: 15px;
+          }
+          .portfolio-holder .container img{
+            height: auto;
+            width: 100%;
+          }
+          .div-opacity-holder
+          {
+            background-color: transparent;
+            position: absolute;
+            height: 220px;
+            width: 93.5%;
+            top: 0;
+            left: 15px;
+            -webkit-transition: background-color 0.8s ease;
+            -ms-transition: background-color 0.8s ease;
+            transition: background-color 0.8s ease;
+          }
+          .div-opacity-holder:hover {
+            cursor: pointer;
+            background-color: rgba(0, 0, 0, 0.8);
+            -webkit-transition: background-color 0.8s ease;
+            -ms-transition: background-color 0.8s ease;
+            transition: background-color 0.8s ease;
+          }
+          .div-opacity-holder a {
+            position: absolute;
+            bottom: 0;
+            left: 16px;
+            opacity: 0;
+            -webkit-transition: bottom 0.8s ease-out, opacity 0.8s ease-out;
+            -ms-transition: bottom 0.8s ease-out, opacity 0.8s ease-out;
+            transition: bottom 0.8s ease-out, opacity 0.8s ease-out;
+          }
+          .div-opacity-holder:hover a {
+            bottom: 9px;
             opacity: 1;
-            -webkit-transition: top 0.8s ease-out, opacity 0.8s ease-out;
-            -ms-transition: top 0.8s ease-out, opacity 0.8s ease-out;
-            transition: top 0.8s ease-out, opacity 0.8s ease-out;
-        }
+            -webkit-transition: bottom 0.8s ease, opacity 0.8s ease;
+            -ms-transition: bottom 0.8s ease, opacity 0.8s ease;
+            transition: bottom 0.8s ease, opacity 0.8s ease;
+          }
+          .div-opacity-holder p {
+              position: absolute;
+              left: 135px;
+              opacity: 0;
+              top: 10px;
+              color: #e5e5e5 !important;
+              -webkit-transition: left 0.8s ease-out, opacity 0.8s ease-out;
+              -ms-transition: left 0.8s ease-out, opacity 0.8s ease-out;
+              transition: left 0.8s ease-out, opacity 0.8s ease-out;
+          }
+          .div-opacity-holder:hover p {
+            left: 15px;
+            opacity: 1;
+            -webkit-transition: left 0.8s ease, opacity 0.8s ease;
+            -ms-transition: left 0.8s ease, opacity 0.8s ease;
+            transition: left 0.8s ease, opacity 0.8s ease;
+          }
+          .div-opacity-holder h6 {
+              position: absolute;
+              left: 17px;
+              top: 70px;
+              opacity: 0;
+              padding-right: 20px;
+              color: #999999 !important;
+              -webkit-transition: top 0.8s ease-out, opacity 0.8s ease-out;
+              -ms-transition: top 0.8s ease-out, opacity 0.8s ease-out;
+              transition: top 0.8s ease-out, opacity 0.8s ease-out;
+          }
+          .div-opacity-holder:hover h6 {
+              top: 44px;
+              opacity: 1;
+              -webkit-transition: top 0.8s ease-out, opacity 0.8s ease-out;
+              -ms-transition: top 0.8s ease-out, opacity 0.8s ease-out;
+              transition: top 0.8s ease-out, opacity 0.8s ease-out;
+          }
 
+          @media screen
+          and (max-device-width: 768px)
+          and (min-device-width: 300px)
+          {
+            .div-opacity-holder {
+              height: 174px !important;
+            }
+
+          }
 
         `}</style>
      </div>

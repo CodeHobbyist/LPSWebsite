@@ -16,57 +16,50 @@ constructor(props){
 }
 
 _onClick(event){
-
- if(event === 'describe'){
-   this.setState({
-       sentenceValue: event,
-       firstCondition: !this.state.firstCondition,
-       secondCondition: false,
-       thirdCondition: false
-     });
- }
- else if(event === 'education'){
-   this.setState({
-       sentenceValue: event,
-       firstCondition: false,
-       secondCondition: !this.state.secondCondition,
-       thirdCondition: false
-     });
- }
- else if(event === 'recent'){
-   this.setState({
-       sentenceValue: event,
-       firstCondition: false,
-       secondCondition: false,
-       thirdCondition: !this.state.thirdCondition
-     });
- }
-
+  if(event === 'describe'){
+     this.setState({
+         sentenceValue: event,
+         firstCondition: !this.state.firstCondition,
+         secondCondition: false,
+         thirdCondition: false
+       });
+   }
+   else if(event === 'education'){
+     this.setState({
+         sentenceValue: event,
+         firstCondition: false,
+         secondCondition: !this.state.secondCondition,
+         thirdCondition: false
+       });
+   }
+   else if(event === 'recent'){
+     this.setState({
+         sentenceValue: event,
+         firstCondition: false,
+         secondCondition: false,
+         thirdCondition: !this.state.thirdCondition
+       });
+   }
 }
 
 
 render() {
-
- return(
-
+  return(
     <div className="about-holder">
        <div className="container">
-
          <h2 className="title-page">About</h2>
          <ul className="list-group">
            <li className={this.state.firstCondition ? "list-group-item disable" : "list-group-item"} onClick={event => this._onClick(event = "describe")}><span>About Me</span></li>
            <li className={this.state.secondCondition ? "list-group-item disable" : "list-group-item"} onClick={event => this._onClick(event = "education")}><span>My Education</span></li>
            <li className={this.state.thirdCondition ? "list-group-item disable" : "list-group-item"} onClick={event => this._onClick(event = "recent")}><span>My Recent Work Experiences</span></li>
          </ul>
-
          <ContentAbout
             sentenceValue = {this.state.sentenceValue}
             conditionValue = {this.state.condition}
             readMoreValue = {this.state.readMoreValue}
          />
     </div>
-
-      <style jsx>{`
+    <style jsx>{`
         .about-holder{
           height:500px;
          }
@@ -128,19 +121,15 @@ render() {
 }
 
 export default About;
-
 export const ContentAbout = ({sentenceValue}) => {
 
 let TitleValue = "Please choose what do you want to know about me." ;
-
 let MainContent = () => (
    <p>{TitleValue}</p>
 );
 
 if(sentenceValue === 'describe'){
-
     TitleValue = "About Me";
-
     MainContent = () => (
       <div className="row">
           <div className="col-md-12 col-sm-12 col-xs-12">
@@ -189,7 +178,6 @@ if(sentenceValue === 'describe'){
 else if(sentenceValue === 'education'){
 
   TitleValue = "My Education";
-
   MainContent = () => (
     <div className="row">
         <div className="col-md-12 col-sm-12 col-xs-12">
@@ -209,7 +197,6 @@ else if(sentenceValue === 'education'){
 }
 else if(sentenceValue === 'recent'){
   TitleValue = "My Recent Work Experiences";
-
   MainContent = () => (
     <div className="row">
         <div className="col-md-12 col-sm-12 col-xs-12">
@@ -223,16 +210,14 @@ else if(sentenceValue === 'recent'){
            <li>Nowcom Global Solutions - Mid Software Engineer (WordPress/Front-end Developer)</li>
         </ul>
      </div>
-
     </div>
 
   );
 }
-
-  return (
+return (
     <div className="content-about-holder">
        <MainContent />
-       <style jsx>{`
+    <style jsx>{`
       .content-about-holder {
         position: relative;
         padding-top: 20px;
@@ -240,8 +225,7 @@ else if(sentenceValue === 'recent'){
         font-size: 20px;
         color: #999999;
       }
-
-      `}</style>
+    `}</style>
     </div>
   );
 

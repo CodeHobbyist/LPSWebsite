@@ -17,7 +17,6 @@ import next from '../images/nextjs.png';
 import wordpress from '../images/wordpress.png';
 
 class Index extends Component{
-
  constructor(props){
    super(props);
  }
@@ -71,7 +70,6 @@ render(){
              </div>
            </div>
          </div>
-
          <div className="row">
            <div className="col-lg-3 col-md-6">
               <div className="img-holder">
@@ -110,7 +108,6 @@ render(){
              </div>
            </div>
          </div>
-
          <div className="row">
            <div className="col-lg-3 col-md-6">
               <div className="img-holder">
@@ -148,10 +145,8 @@ render(){
                 <h6>lightweight framework for static and server-rendered applications</h6>
              </div>
            </div>
-
-         </div>
-
-         <div className="row">
+        </div>
+        <div className="row">
            <div className="col-lg-3 col-md-6">
               <div className="img-holder">
                 <img src={webpack} className="img-responsive"/>
@@ -189,14 +184,11 @@ render(){
              </div>
            </div>
          </div>
-
-       </div>
-
-       <style jsx>{`
+      </div>
+      <style jsx>{`
            .home-holder{
              height:500px;
             }
-
            .home-holder .container p
            {
              color: #999999 !important;
@@ -276,17 +268,10 @@ render(){
              -ms-transition: opacity 0.8s ease, top 0.8s;
              transition: opacity 0.8s ease, top 0.8s;
            }
-
-
-       `}</style>
+      `}</style>
      </div>
-
-
-    );
+   );
  }
-
 }
-
-
 
 export default Index;

@@ -18,13 +18,13 @@ class Portfolio extends Component{
    return(
      <div className="portfolio-holder">
         <div className="container">
-          <h2 className="title-page">Website / Website Application Portfolio</h2>
-          <p>
+          <h2 className="title-page fade-left">Website / Website Application Portfolio</h2>
+          <p className="fade-right">
             I started my IT industry career mainly on WordPress PHP Development and Front-end Development, currently i am now focusing on
             Front-end Development mainly using React and Nextjs.
           </p>
           <div className="row">
-            <div className="col-lg-6 col-md-6">
+            <div className="col-lg-6 col-md-6 fade-right">
               <div className="img-holder">
                 <img src={lowMilesAuto} className="img-responsive"/>
               </div>
@@ -34,7 +34,7 @@ class Portfolio extends Component{
                 <a href="https://www.lowmiles.net/" target="_blank"><i className="fas fa-link"></i></a>
               </div>
             </div>
-            <div className="col-lg-6 col-md-6">
+            <div className="col-lg-6 col-md-6 fade-left">
               <div className="img-holder">
                 <img src={libertyAutoplex} className="img-responsive"/>
               </div>
@@ -46,7 +46,7 @@ class Portfolio extends Component{
             </div>
           </div>
           <div className="row">
-            <div className="col-lg-6 col-md-6">
+            <div className="col-lg-6 col-md-6 fade-right">
               <div className="img-holder">
                 <img src={yalCars} className="img-responsive"/>
               </div>
@@ -56,7 +56,7 @@ class Portfolio extends Component{
                 <a href="https://www.yalcars.com/" target="_blank"><i className="fas fa-link"></i></a>
               </div>
             </div>
-            <div className="col-lg-6 col-md-6">
+            <div className="col-lg-6 col-md-6 fade-left">
               <div className="img-holder">
                 <img src={nht} className="img-responsive"/>
               </div>
@@ -69,7 +69,7 @@ class Portfolio extends Component{
           </div>
 
           <div className="row">
-            <div className="col-lg-6 col-md-6">
+            <div className="col-lg-6 col-md-6 fade-right">
               <div className="img-holder">
                 <img src={discovery} className="img-responsive"/>
               </div>
@@ -79,7 +79,7 @@ class Portfolio extends Component{
                 <a href="https://www.discoveryautotampa.com/" target="_blank"><i className="fas fa-link"></i></a>
               </div>
             </div>
-            <div className="col-lg-6 col-md-6">
+            <div className="col-lg-6 col-md-6 fade-left">
               <div className="img-holder">
                 <img src={graceAutoSales} className="img-responsive"/>
               </div>
@@ -92,7 +92,7 @@ class Portfolio extends Component{
           </div>
 
           <div className="row">
-            <div className="col-lg-6 col-md-6">
+            <div className="col-lg-6 col-md-6 fade-right">
               <div className="img-holder">
                 <img src={darbyAutoCenter} className="img-responsive"/>
               </div>
@@ -102,14 +102,14 @@ class Portfolio extends Component{
                 <a href="https://www.darbyautocenter.com/" target="_blank"><i className="fas fa-link"></i></a>
               </div>
             </div>
-            <div className="col-lg-6 col-md-6">
+            <div className="col-lg-6 col-md-6 fade-left">
               <div className="img-holder">
                 <img src={bitcoinChecker} className="img-responsive"/>
               </div>
               <div className="div-opacity-holder">
                 <p>Bitcoin Checker</p>
                 <h6>ReactJS JavaScript JQuery html CSS less Bootstrap Third Party API</h6>
-                <a href="https://github.com/CodeHobbyist/BitcoinChecker" target="_blank"><i className="fas fa-link"></i></a>
+                <a href="https://bitcoinchecker.netlify.com/" target="_blank"><i className="fas fa-link"></i></a>
               </div>
             </div>
           </div>
@@ -206,14 +206,10 @@ class Portfolio extends Component{
             }
 
           }
-
-        `}</style>
+       `}</style>
      </div>
-
-
    );
  }
-
 }
 
 

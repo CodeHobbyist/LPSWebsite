@@ -8,10 +8,11 @@ constructor(props){
   super(props);
 
   this.state = {
-      sentenceValue: 'default',
+      sentenceValue: 'describe',
       firstCondition: false,
       secondCondition: false,
-      thirdCondition: false
+      thirdCondition: false,
+      defaultButton: 'list-group-item disable'
    }
 }
 
@@ -29,7 +30,8 @@ _onClick(event){
          sentenceValue: event,
          firstCondition: false,
          secondCondition: !this.state.secondCondition,
-         thirdCondition: false
+         thirdCondition: false,
+         defaultButton: 'list-group-item'
        });
    }
    else if(event === 'recent'){
@@ -37,7 +39,8 @@ _onClick(event){
          sentenceValue: event,
          firstCondition: false,
          secondCondition: false,
-         thirdCondition: !this.state.thirdCondition
+         thirdCondition: !this.state.thirdCondition,
+         defaultButton: 'list-group-item'
        });
    }
 }
@@ -47,9 +50,9 @@ render() {
   return(
     <div className="about-holder">
        <div className="container">
-         <h2 className="title-page">About</h2>
-         <ul className="list-group">
-           <li className={this.state.firstCondition ? "list-group-item disable" : "list-group-item"} onClick={event => this._onClick(event = "describe")}><span>About Me</span></li>
+         <h2 className="title-page fade-left">Information About Me / Myself</h2>
+         <ul className="list-group fade-right">
+           <li className={this.state.firstCondition ? "list-group-item disable" : this.state.defaultButton} onClick={event => this._onClick(event = "describe")}><span>About Me</span></li>
            <li className={this.state.secondCondition ? "list-group-item disable" : "list-group-item"} onClick={event => this._onClick(event = "education")}><span>My Education</span></li>
            <li className={this.state.thirdCondition ? "list-group-item disable" : "list-group-item"} onClick={event => this._onClick(event = "recent")}><span>My Recent Work Experiences</span></li>
          </ul>
@@ -60,9 +63,7 @@ render() {
          />
     </div>
     <style jsx>{`
-        .about-holder{
-          height:500px;
-         }
+
         h1 {
           padding-bottom: 25px;
         }
@@ -123,7 +124,7 @@ render() {
 export default About;
 export const ContentAbout = ({sentenceValue}) => {
 
-let TitleValue = "Please choose what do you want to know about me." ;
+let TitleValue = "" ;
 let MainContent = () => (
    <p>{TitleValue}</p>
 );
@@ -164,7 +165,7 @@ if(sentenceValue === 'describe'){
                 find the answer no matter what. ow and yeah not to mention im easy to get along with. my communication skills is crisp as a fried chicken can be.
               </p>
               <p>
-                So yeah, if you think im very well suited on your company, please hit me up at <Link href="/contact">Contact Me</Link>
+                So yeah, if you think im very well suited on your company, please hit me up at <Link href="/contact"><a>Contact Me</a></Link>
               </p>
               <p>
                P.S. Im not a Website Designer so kindly excuse my UI.

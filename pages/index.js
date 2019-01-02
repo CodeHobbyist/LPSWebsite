@@ -25,12 +25,12 @@ render(){
    return(
      <div className="home-holder">
        <div className="container">
-        <h2 className="title-page">Welcome to my Website</h2>
-        <p>My Name is Louie Pearl Sison, I have a degree on Bachelor of Science in Information Technology,
+        <h2 className="title-page fade-left">Welcome to my Website</h2>
+        <p className="fade-right">My Name is Louie Pearl Sison, I have a degree on Bachelor of Science in Information Technology,
         I am pursuing the Website Development field with a company where I can improve my talent, wisdom,
         knowledge and skills and at the same time would help the company to be more successful, which in
         doing so will expand and grow. Please see the skills below that i possess as of the moment.</p>
-        </div>
+      </div>
        <div className="skills-container">
          <div className="row">
            <div className="col-lg-3 col-md-6">
@@ -42,7 +42,7 @@ render(){
                 <h6>Hypertext Markup Language</h6>
               </div>
            </div>
-           <div className="col-lg-3 col-md-6">
+           <div className="col-lg-3 col-md-6 fade-right">
              <div className="img-holder">
                <img src={jsx} className="img-responsive"/>
              </div>
@@ -51,7 +51,7 @@ render(){
                 <h6>JavaScript Syntax Extension</h6>
              </div>
            </div>
-           <div className="col-lg-3 col-md-6">
+           <div className="col-lg-3 col-md-6 fade-left">
              <div className="img-holder">
                <img src={css3} className="img-responsive"/>
              </div>
@@ -80,7 +80,7 @@ render(){
                 <h6>Learner Style Sheets</h6>
               </div>
            </div>
-           <div className="col-lg-3 col-md-6">
+           <div className="col-lg-3 col-md-6 fade-right">
              <div className="img-holder">
                <img src={bootstrap} className="img-responsive"/>
              </div>
@@ -89,7 +89,7 @@ render(){
                 <h6>Open-source Front-end Framework</h6>
              </div>
            </div>
-           <div className="col-lg-3 col-md-6">
+           <div className="col-lg-3 col-md-6 fade-left">
              <div className="img-holder">
                <img src={jsx} className="img-responsive"/>
              </div>
@@ -118,7 +118,7 @@ render(){
                 <h6>JavaScript library designed to simplify HTML DOM</h6>
               </div>
            </div>
-           <div className="col-lg-3 col-md-6">
+           <div className="col-lg-3 col-md-6 fade-right">
              <div className="img-holder">
                <img src={node} className="img-responsive"/>
              </div>
@@ -127,7 +127,7 @@ render(){
                 <h6>Cross-Platform JavaScript Run-Time Environment</h6>
              </div>
            </div>
-           <div className="col-lg-3 col-md-6">
+           <div className="col-lg-3 col-md-6 fade-left">
              <div className="img-holder">
                <img src={gulp} className="img-responsive"/>
              </div>
@@ -156,7 +156,7 @@ render(){
                 <h6>Open-Source JavaScript Module Bundler</h6>
               </div>
            </div>
-           <div className="col-lg-3 col-md-6">
+           <div className="col-lg-3 col-md-6 fade-right">
              <div className="img-holder">
                <img src={php} className="img-responsive"/>
              </div>
@@ -165,7 +165,7 @@ render(){
                 <h6>Hypertext Preprocessor is a Server-Side Scripting Language </h6>
              </div>
            </div>
-           <div className="col-lg-3 col-md-6">
+           <div className="col-lg-3 col-md-6 fade-left">
              <div className="img-holder">
                <img src={mysql} className="img-responsive"/>
              </div>

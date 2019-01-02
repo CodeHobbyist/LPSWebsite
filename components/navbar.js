@@ -37,10 +37,10 @@ class Navbar extends Component {
       <nav className={this.state.Condition ? "navbar-down navbar justify-content-center" : "navbar justify-content-center"}>
          <ul className="navbar-nav">
             <li className="nav-item text-center">
-              <a className="nav-link" onClick={value => this.onPageTransition(value = "/")}>Home</a>
+                <a className="nav-link" onClick={value => this.onPageTransition(value = "/")}>Home</a>
             </li>
             <li className="nav-item text-center">
-              <a className="nav-link" onClick={value => this.onPageTransition(value = "/about")}>About</a>
+                <a className="nav-link" onClick={value => this.onPageTransition(value = "/about")}>About</a>
             </li>
             <li className="nav-item text-center">
               <a className="nav-link" onClick={value => this.onPageTransition(value = "/portfolio")}>Portfolio</a>
@@ -83,6 +83,15 @@ class Navbar extends Component {
             {
               font-size: 38px !important;
               color: #fffffff !important;
+            }
+            @media screen
+            and (max-device-width: 1024px)
+            and (min-device-width: 300px)
+            {
+              .navbar-down a {
+                font-size: 38px !important;
+              }
+
             }
           `}</style>
        </nav>

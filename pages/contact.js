@@ -11,12 +11,12 @@ class Contact extends Component{
    return(
         <div className="contact-holder">
           <div className="container">
-            <h2 className="title-page">Information Details On How To Reach Me</h2>
-            <div className="row">
+            <h2 className="title-page fade-left">Information Details On How To Reach Me</h2>
+            <div className="row fade-right">
               <div className="col-lg-12 col-md-12">
                 <p><a href="mailto:louiepearl_nz@yahoo.com"><i className="fas fa-envelope"></i>louiepearl_nz@yahoo.com</a></p>
                 <p><a href="tel:+64 27 263 0290"><i className="fas fa-phone"></i>+64 27 263 0290</a></p>
-                <p><a href="http://maps.google.com/?q=9 John F. Kennedy PL, Glen Eden, Auckland, New Zealand" target="_blank"><i className="fas fa-address-card"></i>9c John F. Kennedy PL, Glen Eden, Auckland, New Zealand</a></p>
+                <p><a href="http://maps.google.com/?q=Auckland, New Zealand" target="_blank"><i className="fas fa-address-card"></i>Auckland, New Zealand</a></p>
               </div>
             </div>
           </div>
